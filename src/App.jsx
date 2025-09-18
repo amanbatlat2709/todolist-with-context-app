@@ -49,7 +49,7 @@ function App() {
             
             {
               todos.map((todo) => (
-                <div keys={todo.id}>
+                <div keys={todo.id} className='w-full'>
                   <TodoItem todo={todo}/>
                   </div>
               )
